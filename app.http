@@ -1,0 +1,21 @@
+#############
+POST http://localhost:3005/products
+Content-Type: application/json
+
+{
+   "name": "Techno Camon 18 Phone",
+   "description": "Budget Friendly",
+   "price": 4000
+
+}
+
+##########
+GET http://localhost:3005/products
+
+
+##########
+GET http://localhost:3005/prod
+
+
+#########
+GET http://localhost:3005/fil

@@ -1,0 +1,8 @@
+Use Products;
+GO
+CREATE OR ALTER PROCEDURE getProducts
+AS
+BEGIN
+    SELECT * FROM product
+END;
+GO

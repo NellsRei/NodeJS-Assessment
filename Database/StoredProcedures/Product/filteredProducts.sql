@@ -1,0 +1,10 @@
+Use Products;
+GO
+CREATE OR ALTER PROCEDURE filteredProducts
+AS
+BEGIN
+    SELECT * FROM product 
+    WHERE price BETWEEN 200 AND 200000 
+
+END
+GO
